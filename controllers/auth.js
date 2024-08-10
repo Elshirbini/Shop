@@ -190,8 +190,8 @@ exports.postSignup = (req, res, next) => {
       const mailOptions = {
         from: "ahmedalshirbini33@gmail.com",
         to: email,
-        subject: "Sending Email using Node.js",
-        text: "Creation Succefull",
+        subject: "Welcome for you in my Shop",
+        text: " Your account Created Succefully",
       };
 
       return transporter.sendMail(mailOptions, (error, info) => {
